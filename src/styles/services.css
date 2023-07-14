@@ -1,0 +1,30 @@
+.postcard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.postcard {
+  width: 400px;
+  background-color: grey;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: Poppins;
+}
+
+.postcard-header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Poppins;
+}
+
+.postcard-content {
+  margin-bottom: 20px;
+}
+
+.postcard-content p {
+  margin: 0;
+}

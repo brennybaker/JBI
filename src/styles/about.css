@@ -1,0 +1,23 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    margin-top:5%;
+    
+  }
+
+  .about-image {
+    margin:auto;
+    margin-top:5%;
+    
+  }
+
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius:10%;
+  }
+
+  .postcard-container {
+    flex: 2;
+    margin-left: 20px;
+  }

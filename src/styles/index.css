@@ -1,3 +1,14 @@
 /* 
     General Styles
 */
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&family=Lunasima&display=swap');
+
+body{
+    font-family: 'Lunasima', sans-serif !important;
+}
+h1{
+    font-family: 'Lunasima', sans-serif !important;
+}
+h2{
+    font-family: 'Lunasima', sans-serif !important;
+}

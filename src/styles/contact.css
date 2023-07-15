@@ -1,41 +1,41 @@
 .postcard-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: Poppins;
-  }
-  
-  .postcard {
-    width: 400px;
-    background-color: grey;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  }
-  
-  .postcard-header {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .postcard-content {
-    margin-bottom: 20px;
-  }
-  
-  .postcard-label {
-    margin-bottom: 5px;
-  }
-  
-  .postcard-input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .postcard-submit {
-    width: 100%;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.postcard {
+  width: 400px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.postcard-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.postcard-content {
+  margin-bottom: 20px;
+}
+
+.postcard-label {
+  margin-bottom: 5px;
+}
+
+.postcard-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.postcard-submit {
+  width: 100%;
+}

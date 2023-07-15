@@ -36,7 +36,7 @@ export const Services = () => {
         </ul>
       </div>
       <div className="partners-list">
-        <h2>Partners We Work With</h2>
+        <h2>Our Partners</h2>
         <ul>
           {partnersList.map((partner, index) => (
             <li key={index}>{partner}</li>
@@ -50,6 +50,9 @@ export const Services = () => {
             <li key={index}>{job}</li>
           ))}
         </ul>
+      </div>
+      <div className="partners-imgs">
+        <img src= "https://chocolatenosh.com/wp-content/uploads/2022/04/Chocolate-Nosh-No-Circle-Tagline-Logo-white_300.png"></img>
       </div>
     </div>
   );

@@ -1,14 +1,13 @@
-/* 
-    General Styles
-*/
-@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&family=Lunasima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Special+Elite&display=swap');
 
 body{
-    font-family: 'Lunasima', sans-serif !important;
+    font-family: 'Special Elite', cursive !important;
+    font-size: large;
+    background: darkblue;
 }
 h1{
-    font-family: 'Lunasima', sans-serif !important;
+    font-family: 'Special Elite', cursive !important;
 }
 h2{
-    font-family: 'Lunasima', sans-serif !important;
+    font-family: 'Special Elite', cursive !important;
 }

@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 .services-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 6rem;
+  margin-top: 8rem;
   animation: fade-in 1.5s forwards;
+  z-index:-1;
+}
+.navbar {
+  z-index: 1;
 }
 
 .services-list,
@@ -14,8 +20,9 @@
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  margin: 0 1rem;
+  margin: 1rem;
   flex: 1;
+  
 }
 
 .services-list h2,
@@ -23,6 +30,7 @@
 .jobs-list h2 {
   text-align: center;
   margin-bottom: 20px;
+  font-family: 'Permanent Marker', cursive !important;
 }
 
 .fade-in {
@@ -64,3 +72,4 @@
     transform: translateX(0);
   }
 }
+

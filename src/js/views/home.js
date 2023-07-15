@@ -3,12 +3,14 @@ import "../../styles/home.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
+
 export const Home = () => (
   <div className="home-container">
-    <div className="slideshow-container">
     <div className="home-content">
-      <h1 className="home-title">Welcome!</h1><p className="home-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h1 className="home-title">Experienced, exceptional plumbing services backed by expertise and reliability.</h1>
     </div>
+    <div className="slideshow-container">
+    
       <div className="slides-wrapper">
         <Carousel showThumbs={false} showStatus={false} infiniteLoop autoPlay>
           <div>
